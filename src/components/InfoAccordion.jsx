@@ -1,6 +1,6 @@
 import Accordion from "react-bootstrap/Accordion";
 
-function FlushExample() {
+function InfoAccordion() {
   return (
     <Accordion defaultActiveKey="0" flush>
       <Accordion.Item eventKey="0">

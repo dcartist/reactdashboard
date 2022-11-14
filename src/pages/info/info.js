@@ -1,5 +1,10 @@
 import React from "react";
+import InfoAccordion from "../../components/InfoAccordion";
 
 export default function info() {
-  return <div>info</div>;
+  return (
+    <div>
+      <InfoAccordion></InfoAccordion>
+    </div>
+  );
 }

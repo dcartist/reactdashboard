@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import About from "./pages/about/about";
 import ApiCalls from "./pages/api/api";
+import AboutApi from "./pages/api/AboutApi";
 import Info from "./pages/info/info";
 import Home from "./pages/home/home";
 import Intro from "./pages/intro/intro";
@@ -27,7 +28,9 @@ function App() {
         </Route> */}
 
         <Route path="/" element={<Intro />}></Route>
-        <Route path="/apicalls" element={<ApiCalls />}></Route>
+        <Route path="/apicalls" element={<ApiCalls />}>
+          <Route path="apiabout" element={<AboutApi />} />
+        </Route>
         <Route path="about" element={<About />} />
         <Route path="home" element={<Home />} />
         <Route path="info" element={<Info />} />
