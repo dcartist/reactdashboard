@@ -6,7 +6,7 @@ import AboutApi from "./pages/api/AboutApi";
 import Info from "./pages/info/info";
 import Home from "./pages/home/home";
 import Intro from "./pages/intro/intro";
-import Navigation from "./components/navigation";
+import Navigation from "./components/Navigation";
 import { Routes, Route, useLocation } from "react-router-dom";
 
 function App() {

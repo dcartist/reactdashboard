@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Logo from "../images/gauge-light.svg";
 import { Link } from "react-router-dom";
 
 export default function Navigation() {
@@ -10,6 +11,7 @@ export default function Navigation() {
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
+            <img src={Logo} className="logo" />
             REACT DASHBOARD
           </Link>
           <button
