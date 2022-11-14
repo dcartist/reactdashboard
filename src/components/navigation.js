@@ -48,6 +48,15 @@ export default function Navigation() {
                   Info
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/apicalls"
+                >
+                  API Calls
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
