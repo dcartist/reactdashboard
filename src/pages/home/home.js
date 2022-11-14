@@ -1,11 +1,15 @@
 import React from "react";
-import HomeTopInformation from "./homeTopInformation";
+import HomeTopInformation from "./HomeTopInformation";
 import reactlogo from "../../logo.svg";
+import Counter from "../../components/Counter";
 import reactbackground from "../../images/reactbackground.jpg";
 import redImage from "../../images/redbackground.jpg";
+import code from "../../images/code.jpg";
 import Parallax from "../../components/Parallax";
-
-export default function home() {
+import wireframe from "../../images/wireframe.png";
+import writeframeDeconstructed from "../../images/wireframe_deconstructed.png";
+import "./home.css";
+export default function Home() {
   const newStyle = {
     height: "70vh",
     width: "100vw",
@@ -18,8 +22,22 @@ export default function home() {
     <div>
       <div style={newStyle}></div>
       <HomeTopInformation></HomeTopInformation>
+
       <Parallax height="80" backgroundurl={redImage}></Parallax>
-      <img src={reactlogo} className="App-logo" alt="logo" />
+
+      <div className="container paddedContainer">
+        <div className="row">
+          <div className="text-center">
+            <img src={wireframe}></img>
+            <img src={writeframeDeconstructed}></img>
+
+            <p>Imagine how this actually works</p>
+            <Counter></Counter>
+          </div>
+        </div>
+      </div>
+
+      <Parallax height="80" backgroundurl={code}></Parallax>
     </div>
   );
 }

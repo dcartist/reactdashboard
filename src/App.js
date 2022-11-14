@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import About from "./pages/about/about";
-import ApiCalls from "./pages/api/api";
+import About from "./pages/about/About";
+import ApiCalls from "./pages/api/Api";
 import AboutApi from "./pages/api/AboutApi";
 import Info from "./pages/info/info";
-import Home from "./pages/home/home";
-import Intro from "./pages/intro/intro";
+import Home from "./pages/home/Home";
+import Intro from "./pages/intro/Intro";
 import Navigation from "./components/Navigation";
 import { Routes, Route, useLocation } from "react-router-dom";
 
@@ -18,6 +18,7 @@ function App() {
   console.log("hash", location.hash);
   console.log("pathname", location.pathname);
   console.log("search", location.search);
+
   return (
     <div className="App">
       {location.pathname !== "/" ? <Navigation></Navigation> : ""}

@@ -2,7 +2,7 @@ import React from "react";
 import Headline from "../../components/Headline";
 export default function HomeTopInformation() {
   return (
-    <div className="container">
+    <div className="container mt-5">
       <Headline title="React vs React Native"></Headline>
       <div className="row">
         <div className="col">

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "./intro.css";
-export default function intro() {
+export default function Intro() {
   return (
     <div className="introMain">
       <Card className="text-center shadow w-50">
