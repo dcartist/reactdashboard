@@ -2,6 +2,8 @@ import React from "react";
 import HomeTopInformation from "./homeTopInformation";
 import reactlogo from "../../logo.svg";
 import reactbackground from "../../images/reactbackground.jpg";
+import redImage from "../../images/redbackground.jpg";
+import Parallax from "../../components/Parallax";
 
 export default function home() {
   const newStyle = {
@@ -14,9 +16,9 @@ export default function home() {
   };
   return (
     <div>
-      <HomeTopInformation></HomeTopInformation>
       <div style={newStyle}></div>
-
+      <HomeTopInformation></HomeTopInformation>
+      <Parallax height="80" backgroundurl={redImage}></Parallax>
       <img src={reactlogo} className="App-logo" alt="logo" />
     </div>
   );
