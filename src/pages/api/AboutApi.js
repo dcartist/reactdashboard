@@ -12,10 +12,9 @@ export default function AboutApi() {
               This api is using the{" "}
               <a
                 href="https://rickandmortyapi.com/"
-                rel="noopener"
+                rel="noreferrer" 
                 target="_blank"
               >
-                {" "}
                 https://rickandmortyapi.com/
               </a>
             </p>

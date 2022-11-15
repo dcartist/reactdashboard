@@ -4,6 +4,7 @@ import reactlogo from "../../logo.svg";
 import Counter from "../../components/Counter";
 import reactbackground from "../../images/reactbackground.jpg";
 import redImage from "../../images/redbackground.jpg";
+import filestructure from "../../images/filestructure.png"
 import code from "../../images/code.jpg";
 import Parallax from "../../components/Parallax";
 import wireframe from "../../images/wireframe.png";
@@ -33,6 +34,10 @@ export default function Home() {
 
             <p>Imagine how this actually works</p>
             <Counter></Counter>
+
+            <p>This file structure of creating an react app looks like this</p>
+          <img src={filestructure} alt="filestructure"/>
+
           </div>
         </div>
       </div>

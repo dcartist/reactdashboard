@@ -3,7 +3,7 @@ import "./App.css";
 import About from "./pages/about/About";
 import ApiCalls from "./pages/api/Api";
 import AboutApi from "./pages/api/AboutApi";
-import Info from "./pages/info/info";
+import Info from "./pages/info/Info";
 import Home from "./pages/home/Home";
 import Intro from "./pages/intro/Intro";
 import Navigation from "./components/Navigation";
@@ -23,11 +23,7 @@ function App() {
     <div className="App">
       {location.pathname !== "/" ? <Navigation></Navigation> : ""}
       <Routes>
-        {/* <Route path="/" element={<Dashboard />}>
-          <Route path="messages" element={<DashboardMessages />} />
-          <Route path="tasks" element={<DashboardTasks />} />
-        </Route> */}
-
+        {/* this is a comment */}
         <Route path="/" element={<Intro />}></Route>
         <Route path="/apicalls" element={<ApiCalls />}>
           <Route path="apiabout" element={<AboutApi />} />
