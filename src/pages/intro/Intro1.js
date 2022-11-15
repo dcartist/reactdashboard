@@ -7,7 +7,10 @@ export default function Intro() {
   return (
     <div className="introMain">
       <Card className="text-center shadow w-50">
-        <Card.Header>React Dashboard</Card.Header>
+
+
+        
+        <Card.Header>OOMpa Dashboard</Card.Header>
         <Card.Body>
           <Card.Title>Welcome</Card.Title>
           <Card.Text>Click on the button to enter</Card.Text>

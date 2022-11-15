@@ -8,6 +8,7 @@ import filestructure from "../../images/filestructure.png"
 import code from "../../images/code.jpg";
 import Parallax from "../../components/Parallax";
 import wireframe from "../../images/wireframe.png";
+import TitleTags from "../../components/TitleTags"
 import writeframeDeconstructed from "../../images/wireframe_deconstructed.png";
 import "./home.css";
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
   };
   return (
     <div>
+     <TitleTags></TitleTags>
       <div style={newStyle}></div>
       <HomeTopInformation></HomeTopInformation>
 
